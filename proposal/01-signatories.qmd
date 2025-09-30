@@ -10,6 +10,11 @@ are proposed.
 -->
 
 ## Project team
+
+The single person in the project team is [Bruna Wundervald](https://github.com/brunaw). We believe one
+person with both `R` & causality skills is enough to successfully
+complete this project. 
+
 <!--
 Who are the people responsible for actually delivering the project if
 the proposal gets accepted and are already signed up and rearing to
@@ -23,10 +28,23 @@ Who are the people who have actively helped with this proposal but
 won't necessarily be on the core project team later?
 -->
 
+The main contributors are [Bruna Wundervald](https://github.com/brunaw), the project owner, and 
+[Matheus Facure](https://github.com/matheusfacure), book
+author. 
+
 ## Consulted
 <!--
 Who has been given the opportunity to provide feedback on the
 proposal? This should include any R Consortium & ISC members who the
 proposal has been discussed with.
 -->
+
+The main person who's given feedback on the proposal was
+Matheus Facure. We have not consulted R Consortium & ISC
+members yet, but we believe this project can be of great usefulness
+to the `R` community. 
+
+We would be very happy to receive any sort of feedback and/or
+suggestions for this project. 
+
 

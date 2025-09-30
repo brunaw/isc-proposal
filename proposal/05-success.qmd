@@ -9,14 +9,55 @@ thorough understanding going in of what the risks are to delivery
 What does success look like?
 -->
 
+The final book should be:
+
+- fully compiled without problems, 
+- with all examples made in `R` following the same logic as the already available code, 
+- available in a GitHub repository for reproducibility,
+- publicized via posts on Linkedin, Slack groups and other relevant places. 
+
 ## Measuring success
 <!--
 How will we know when success is achieved, what markers can we use
 along the way
 -->
 
+Progress and success can be measured using the following criteria:
+
+**Technical completion:**  
+
+  - All chapters compile correctly.  
+  - All code examples run without errors and produce the expected output.  
+
+**Quality checks:**  
+
+  - Peer review or internal review confirms clarity, consistency, and correctness.  
+  - Consistent formatting, style, and referencing across chapters.  
+
+**Repository readiness:**  
+
+  - Repository is public, documented, and versioned.  
+
+
+**Community engagement:**  
+
+  - At least a few announcements/posts are made across agreed channels.
+  - Initial feedback from early readers is collected and documented.  
+
+**Impact markers (longer-term):**  
+
+  - Number of stars, forks, or issues on GitHub after release.  
+  - Reader engagement via comments, shares, or contributions.   
+
 ## Future work
 <!--
 How could this be extended / developed in the future by yourself
 and/or the community in general?
 -->
+
+This work can be extended by providing the same code
+"translation" to different language versions of the book, which
+already exist but only for `python`. In addition, we also think
+of creating a Shiny App where the book readers can play with the
+code and its results, which can be easily done after the `R` code
+is provided. 

@@ -12,13 +12,38 @@ for the next section - the proposed solution!
 
 It is important to cover:
 
- - [ ] What the problem is
- - [ ] Who it affects
- - [ ] Why is it a problem
- - [ ] What will solving the problem enable (why should it be solved)
- - [ ] Brief summary of existing work and previous attempts (e.g., relevant R packages)
- - [ ] If proposing changes to R itself: letter of support from R Core member
+ - [x] What the problem is
+ - [x] Who it affects
+ - [x] Why is it a problem
+ - [x] What will solving the problem enable (why should it be solved)
+ - [x] Brief summary of existing work and previous attempts (e.g., relevant R packages)
+ - [x] If proposing changes to R itself: letter of support from R Core member
 -->
 ```
 
-An example in-text citation [@wickham2016].
+
+While *Causal Inference for The Brave and True*  is a new, fully reproducible and quite famous
+causality book. It provides an engaging and rigorous introduction to causality, its code examples and implementations are currently available only in `python`. 
+Even though `python` is commonly used in industry, 
+this creates a barrier for learners, practitioners, and instructors who primarily use `R`. The book author has informed us that,
+unfortunately, there are no `R` versions of the book, the
+only translations done have been to other languages, not *coding* 
+languages. 
+
+In addition to that, 
+causality lies at the heart of scientific discovery and decision-making, allowing us to move beyond correlations and understand the true effects of actions, policies, and interventions, and it is becoming more and more popular. 
+In data science, economics, medicine, and the social sciences, causal reasoning provides the foundation for reliable predictions and effective strategies. Given this, it would be very 
+useful to have a version of the mentioned book using `R` as 
+the code language, which remains one of the most widely 
+adopted languages in statistics, data science, and even
+causal inference research.
+
+We also note that the repository for the
+`python` version of the book
+already has over 3000 stars on [GitHub](https://github.com/matheusfacure/python-causality-handbook), highligthing the importance and reach of its code and content. Without an `R` version, the users that are more familiar with `R` 
+either need to translate the code themselves, which is often an error-prone and time-consuming process, or miss out on fully engaging with the book’s practical components. This limits the accessibility, reproducibility, and educational impact of the resource, specially for the `R` community.
+
+Given all of these, there is a clear need for a systematic and faithful translation of the book's `python` code into `R`, ensuring that `R` users can learn causal inference in a way that is friendly, consistent, and directly aligned with the structure and spirit of the original book.
+
+This project primarily affects `R` users: students, researchers, educators, and practitioners—by making causal inference resources more accessible, reproducible, and widely applicable within the open-source community. Creating this translation will enable `R` users to fully engage with the practical components of Causal Inference for The Brave and True, fostering broader accessibility to causal inference methods, improving reproducibility of analyses, and strengthening the open-source ecosystem by providing parallel resources across both `python` and `R`.
+

@@ -13,6 +13,17 @@ important because projects need to get up and running quickly.
 -->
 
 
+The Start-up phase activities include:
+
+- Setting up the collaboration platform: Create a dedicated GitHub repository for the `R`translation, configure version control, and provide contribution guidelines; 
+
+- License decisions: Select an appropriate open-source license that aligns with the original book’s licensing and allows for free use, modification, and sharing of the `R` code; 
+
+- Reporting framework: Implement a system for tracking progress, issues, and milestones, including regular updates on translation status and validation of code, following the book's order
+
+By completing these steps first, the project will have a solid foundation to proceed efficiently with the chapter-by-chapter translation, testing, and eventual release.
+
+
 ## Technical delivery
 <!--
 Covering the actual delivery of the project this section should
@@ -21,6 +32,33 @@ provide at least a high-level description of the implementation.
 Including target dates is really important as you need to be committed
 and the ISC need to have a means of tracking delivery
 -->
+
+Our high-level description of the implementation includes:
+
+- Chapter Translation and Validation: 
+  - Translate 2–3 chapters per week, depending on complexity (1–3 days per chapter); 
+- Validate `R` outputs against `python` results to ensure equivalence; 
+- Add clear inline comments and explanations to maintain educational value.
+
+- Testing and Reproducibility:
+  - Conduct tests for all chapters to confirm consistency of results, figures, and examples, as expected from a reproducible document; 
+  - Ensure reproducibility using `R` scripts, reproducible notebooks, and version control via GitHub; 
+
+- Documentation and Community Engagement: 
+- Develop README files, usage instructions, and tutorials for `R` users, which are strongly complemented by the book's content; 
+- Share early versions on GitHub to collect feedback from the community and refine implementation.
+
+
+**Target Dates**:
+
+- Week 1: Start phase, with planning
+- Weeks 2-3: Translate and validate Chapters 1–6
+- Weeks 4-5: Translate and validate Chapters 7–12
+- Weeks 6-7: Translate and validate Chapters 13–18
+- Weeks 8-9: Translate and validate Chapters 19–25, complete testing and reproducibility checks
+- Weeks 10-11: Finalize documentation, incorporate community feedback, and prepare full release
+- Week 12: Publish the complete `R` translation, fully documented and reproducible. 
+
 
 ## Other aspects
 
@@ -37,6 +75,16 @@ to be shared quarterly on the R Consortium blog.
  - [ ] UseR!
  - [ ] ISC meetings
 -->
+
+To publicize the project, we will:
+
+- Write up an announcement post, letting the community know about this exciting new resource; 
+- Share updates, progress, and tutorials quarterly on the `R` Consortium blog, as suggested; 
+- Announce releases and updates on social media channels and relevant `R` and causal inference communities; 
+- Provide clear contribution guidelines and encourage community engagement via GitHub; 
+
+This approach will ensure that the resource remains freely available, continuously improved, and widely used by the `R` community.
+
 
 ## Budget & funding plan
 
@@ -55,3 +103,26 @@ to the project and the project period. The ISC reserves the right to vet
 how funds are used for each project separately. If in doubt, please reach
 out to us.
 -->
+
+Following the planned timeline, considering that we estimate
+each chapter takes from 3 to 5 hours of continuous work to be completed, and
+a reduced hourly rate of 50$/hour, we constructed the following
+budget plan: 
+
+
+| Milestone                                            | Tasks                                                                              | Hours  | Cost (USD)  | Target Dates |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------- | ------ | ----------- | ------------ |
+| **1. Planning & Setup**                              | Set up GitHub repo, collaboration platform, license decisions, reporting framework | 5      | 250         | Week 1       |
+| **2. Translate & Validate Chapters 1–6**             | Translate and validate Chapters 1–6                                                | 18–30  | 900–1,500   | Weeks 2–3    |
+| **3. Translate & Validate Chapters 7–12**            | Translate and validate Chapters 7–12                                               | 18–30  | 900–1,500   | Weeks 4–5    |
+| **4. Translate & Validate Chapters 13–18**           | Translate and validate Chapters 13–18                                              | 18–30  | 900–1,500   | Weeks 6–7    |
+| **5. Translate & Validate Chapters 19–25 + Testing** | Translate and validate Chapters 19–25; complete testing and reproducibility checks | 21–35  | 1,050–1,750 | Weeks 8–9    |
+| **6. Documentation & Community Feedback**            | Finalize README, tutorials, blog content, incorporate community feedback           | 5–10   | 250–500     | Weeks 10–11  |
+| **7. Final Release**                                 | Publish complete R translation, fully documented and reproducible                  | 2–3    | 100–150     | Week 12      |
+| **Total**                                            | —                                                                                  | 87–143 | 4,350–6,150 | 12 weeks     |
+
+
+We are also willing to accept and accomodate suggestions
+to both the timeline and
+budget planning, as expert opinion on the subject might be 
+relevant in order to make optimal modifications to these plans. 

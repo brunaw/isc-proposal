@@ -4,3 +4,49 @@
 This section provides a condensed view of the entire proposal, one page long.
 It should be a comprehensive high-level overview that captures the essence of the proposal, including its goals, methods, expected outcomes, deliverables, and budget.
 -->
+
+The book called "Causal Inference for The Brave and True", by 
+Matheus Facure, is an engaging yet methodical approach to causality, and it has become a good reference to anyone learning this topic in the most recent days. The same author also wrote [@facure2023causal]. 
+
+
+## Goals
+
+The main goal of this proposal is to provide a translation of the
+current `python` code of the book "Causal Inference for The Brave and True"  into `R` code. This will lead to helping
+causal inference concepts accessible to `R` users in a 
+friendly, simple and reproducible way. A secondary goal is to
+provide the same code translation for the portuguese version of
+the book, amplifying the reach of this project. 
+
+## Methods
+
+The full text & code used to generate the book are stored in 
+an open-source repository called [matheusfacure/python-causality-handbook](https://github.com/matheusfacure/python-causality-handbook). The book is fully reproducible
+and created from a set of notebook files which are rendered to
+create the main file. 
+
+Given that, our method of execution is to translate the already 
+provided `python` code into `R`, and replacing it on the 
+chunks of the book that use the code. 
+
+If any file changes are necessary in order to fully compile the
+`R` correctly, we will also provide that. 
+
+
+## Expected Outcomes 
+
+The main expected outcome is a version of the "Causal Inference for The Brave and True" book in which the accompanying code is written
+in `R`. This will also help broaden the reach of the book to the `R` community.
+
+## Deliverables
+
+The deliverables can be defined as : 
+
+- Files which compose the "Causal Inference for The Brave and True" book using `R` code instead of `python`
+- Full compilation of such files in order to generate the book
+- Blog/linkedin posts to communicate the creation of this book version
+- Linking the new version of the book into its main homepage, helping broadening its reach into the community 
+
+## Budget
+
+From 4,350–6,150 USD, as later estimated in this report. 
